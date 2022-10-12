@@ -1,0 +1,449 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text4 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-header {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: 969px;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #3a3a3a;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: space-between;
+  flex-direction: column;
+}
+.home-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.home-icon-group {
+  display: flex;
+}
+.home-burger-menu {
+  display: none;
+}
+.home-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.home-text {
+  top: -19px;
+  left: 314px;
+  color: rgb(255, 255, 255);
+  width: 433px;
+  height: auto;
+  position: absolute;
+  font-family: Roboto;
+}
+.home-image {
+  top: 14px;
+  right: 15px;
+  width: 155px;
+  height: 70px;
+  position: absolute;
+  align-self: flex-end;
+  object-fit: cover;
+}
+.home-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.home-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.home-image1 {
+  height: 2rem;
+}
+.home-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-text001 {
+  top: 168px;
+  left: 33px;
+  width: auto;
+  position: absolute;
+}
+.home-link {
+  text-decoration: underline;
+}
+.home-text029 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+.home-text031 {
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text035 {
+  font-weight: 700;
+  text-transform: lowercase;
+}
+.home-text037 {
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text045 {
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text176 {
+  top: 120px;
+  left: var(--dl-space-space-twounits);
+  position: absolute;
+}
+@media(max-width: 1200px) {
+  .home-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+  .home-header {
+    background-color: rgba(10, 10, 10, 0.98);
+  }
+  .home-text {
+    color: rgb(255, 255, 255);
+  }
+  .home-image {
+    top: 15px;
+    left: 74px;
+  }
+  .home-text001 {
+    right: -264px;
+    width: 95%;
+    bottom: 31px;
+  }
+  .home-link {
+    text-decoration: underline;
+  }
+  .home-text012 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text016 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text020 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text025 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text029 {
+    font-style: normal;
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+  .home-text031 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text035 {
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+  .home-text037 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text045 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text052 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text059 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text061 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text064 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text066 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text070 {
+    font-weight: 700;
+  }
+  .home-text077 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text083 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text086 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text088 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text091 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text093 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text095 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text098 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text100 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text103 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text105 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text108 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text110 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text112 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text115 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text117 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text119 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text121 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text124 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text126 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text128 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text133 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text134 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text135 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text136 {
+    font-weight: 400;
+  }
+  .home-text140 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text142 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text144 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text146 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text148 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text152 {
+    font-weight: 600;
+  }
+  .home-text156 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text160 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text164 {
+    font-size: 25px;
+    font-family: Calligraffitti;
+  }
+  .home-text165 {
+    font-size: 25px;
+    font-family: Calligraffitti;
+  }
+}
+@media(max-width: 767px) {
+  .home-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-burger-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .home-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .home-mobile-menu {
+    padding: 16px;
+  }
+}
