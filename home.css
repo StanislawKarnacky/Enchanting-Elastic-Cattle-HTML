@@ -200,7 +200,7 @@
   font-style: normal;
   font-weight: 700;
 }
-.home-text176 {
+.home-text181 {
   top: 120px;
   left: var(--dl-space-space-twounits);
   position: absolute;
@@ -221,9 +221,7 @@
     left: 74px;
   }
   .home-text001 {
-    right: -264px;
     width: 95%;
-    bottom: 31px;
   }
   .home-link {
     text-decoration: underline;
@@ -288,17 +286,15 @@
   .home-text070 {
     font-weight: 700;
   }
-  .home-text077 {
+  .home-link1 {
+    text-decoration: underline;
+  }
+  .home-link2 {
+    text-decoration: underline;
+  }
+  .home-text082 {
     font-style: normal;
     font-weight: 700;
-  }
-  .home-text083 {
-    font-style: normal;
-    font-weight: 600;
-  }
-  .home-text086 {
-    font-style: normal;
-    font-weight: 600;
   }
   .home-text088 {
     font-style: normal;
@@ -312,7 +308,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .home-text095 {
+  .home-text096 {
     font-style: normal;
     font-weight: 600;
   }
@@ -340,7 +336,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .home-text112 {
+  .home-text113 {
     font-style: normal;
     font-weight: 600;
   }
@@ -352,11 +348,11 @@
     font-style: normal;
     font-weight: 600;
   }
-  .home-text119 {
+  .home-text120 {
     font-style: normal;
     font-weight: 600;
   }
-  .home-text121 {
+  .home-text122 {
     font-style: normal;
     font-weight: 600;
   }
@@ -368,7 +364,11 @@
     font-style: normal;
     font-weight: 600;
   }
-  .home-text128 {
+  .home-text129 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text131 {
     font-style: normal;
     font-weight: 600;
   }
@@ -376,53 +376,57 @@
     font-style: normal;
     font-weight: 600;
   }
-  .home-text134 {
+  .home-text138 {
     font-style: normal;
     font-weight: 600;
   }
-  .home-text135 {
+  .home-text139 {
     font-style: normal;
-    font-weight: 700;
-  }
-  .home-text136 {
-    font-weight: 400;
+    font-weight: 600;
   }
   .home-text140 {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
   }
-  .home-text142 {
+  .home-text141 {
+    font-weight: 400;
+  }
+  .home-text145 {
     font-style: normal;
     font-weight: 600;
   }
-  .home-text144 {
+  .home-text147 {
     font-style: normal;
     font-weight: 600;
   }
-  .home-text146 {
+  .home-text149 {
     font-style: normal;
     font-weight: 600;
   }
-  .home-text148 {
+  .home-text151 {
     font-style: normal;
     font-weight: 600;
   }
-  .home-text152 {
-    font-weight: 600;
-  }
-  .home-text156 {
+  .home-text153 {
     font-style: normal;
     font-weight: 600;
   }
-  .home-text160 {
+  .home-text157 {
+    font-weight: 600;
+  }
+  .home-text161 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text165 {
     font-style: normal;
     font-weight: 700;
   }
-  .home-text164 {
+  .home-text169 {
     font-size: 25px;
     font-family: Calligraffitti;
   }
-  .home-text165 {
+  .home-text170 {
     font-size: 25px;
     font-family: Calligraffitti;
   }
